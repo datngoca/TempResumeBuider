@@ -1,0 +1,40 @@
+{
+    {
+        "_id": {
+          "$oid": "67074578b91074bba9b3071d"
+        },
+        "title": "Junior Software Developer Resume",
+        "user": {
+          "$oid": "67074531e1caff5488a7c7d6"
+        },
+        "personalInformation": {
+          "name": "Nguyen Van A",
+          "email": "nguyenvana@example.com",
+          "address": "123 Le Loi, District 1, Ho Chi Minh City",
+          "phone": "+84912345678",
+          "github": "https://github.com/nguyenvana",
+          "linkedin": "https://linkedin.com/in/nguyenvana",
+          "image": "blob:http://localhost:3000/8209720f-18a4-47e5-b333-dc69caf56886"
+        },
+        "summary": "I am a passionate Full-Stack Software Developer with over 5 years of experience building and maintaining responsive web applications. Proficient in a wide range of modern web technologies and development practices, including front-end and back-end systems. Adept at delivering high-quality software solutions, writing clean code, and collaborating in cross-functional teams. I am always eager to learn new technologies and continuously improve my skills.",
+        "templateId": "template123",
+        "experience": [
+          {
+            "title": "Software Developer",
+            "company": "ABC Tech",
+            "position": "Intern",
+            "date": "June 2023 - August 2023",
+            "description": "Worked on developing web applications",
+            "responsibilities": [
+              "Developed frontend components using React.js",
+              "Assisted in backend API development using Node.js"
+            ],
+            "_id": {
+              "$oid": "67074578b91074bba9b3071e"
+            },
+            "isDeleted": false,
+            "deletedAt": null
+          },
+        ]   
+    }
+}
