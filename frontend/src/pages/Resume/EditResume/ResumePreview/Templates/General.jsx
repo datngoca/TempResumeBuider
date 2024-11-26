@@ -2,9 +2,9 @@ import React from "react";
 
 const General = ({ data }) => {
   return (
-    <div className="flex flex-row bg-white shadow-lg p-6 border border-gray-300">
+    <div className="flex flex-row">
       {/* Sidebar */}
-      <div className="bg-blue-900 text-white p-6 flex flex-col w-full md:w-1/3">
+      <div className="bg-blue-900 text-white p-6 flex flex-col w-1/3">
         {/* Avatar và Thông tin cá nhân */}
         <div className="flex flex-col items-center mb-6">
           <img
@@ -15,7 +15,6 @@ const General = ({ data }) => {
           <h2 className="text-xl font-bold">{data.name || "Họ và Tên"}</h2>
           <p>{data.jobTitle || "Chức danh công việc"}</p>
         </div>
-
         {/* Contact */}
         {data.personalInformation && (
           <div className="mb-6">
@@ -85,7 +84,10 @@ const General = ({ data }) => {
       {/* Nội dung chính */}
       <div className="bg-white p-6 flex-grow">
         {/* Tên và chức danh */}
-        <h1 className="text-3xl font-bold mb-4 text-blue-900">
+        <h1
+          className="text-3xl font-bold mb-4 text-blue-900"
+          style={{ background: "blue" }}
+        >
           {data.name || "Họ và Tên"}
         </h1>
         <h2 className="text-xl text-gray-600 mb-6">

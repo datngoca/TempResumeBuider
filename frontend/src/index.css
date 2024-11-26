@@ -14,6 +14,21 @@
     padding: 0;
     margin: 0;
     box-shadow: none;
+    background-color: transparent;
+  }
+  .sidebar {
+    background-color: #1e3a8a !important; /* Màu nền của sidebar */
+    color: white !important; /* Màu chữ trắng để dễ đọc */
+  }
+
+  /* Đảm bảo nội dung bên trong không bị mất */
+  .sidebar * {
+    color: white !important;
+  }
+
+  /* Đảm bảo nền không bị mất khi in */
+  .bg-blue-900 {
+    background-color: #1e3a8a !important;
   }
 }
 @page {
